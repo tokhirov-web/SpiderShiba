@@ -1,0 +1,137 @@
+.roadmap {
+    margin-top: 150px;
+
+    .container {
+        margin: 10px auto;
+        max-width: 1320px;
+
+        h2 {
+            color: white;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .map-block {
+            margin-top: 50px;
+            display: flex;
+            gap: 140px;
+            padding: 0 20px;
+
+            .map-left {
+                display: flex;
+                flex-direction: column;
+                gap: 200px;
+
+                .mutual-month {
+                    max-width: 500px;
+                    display: flex;
+                    gap: 40px;
+                    padding: 20px 20px;
+                    border: 1px solid #FFFFFF1A;
+                    border-radius: 20px;
+                    background-color: #384D7033;
+
+                    .number-left {
+
+                        img {
+                            max-width: 100px;
+                        }
+                    }
+
+                    .options-right {
+
+                        h2 {
+                            text-align: center;
+                            font-size: 23px;
+                        }
+
+                        ul {
+                            margin-top: 5px;
+
+                            li {
+                                color: white;
+                            }
+                        }
+                    }
+
+                }
+
+                .question-2 {
+                    background-color: #384D70;
+                }
+            }
+
+            .line {
+                border-radius: 20px;
+                background-color: #384D70;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 200px;
+
+                .top-line {
+                    background-color: #E11D2E;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 240px;
+
+                    img {
+                        width: 8px;
+                    }
+
+                }
+
+                img {
+                    width: 8px;
+                }
+            }
+
+            .map-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                .same-month {
+                    max-width: 450px;
+                    display: flex;
+                    gap: 40px;
+                    padding: 20px 20px;
+                    border: 1px solid #FFFFFF1A;
+                    border-radius: 20px;
+                    background-color: #384D7033;
+
+                    .number-l {
+
+                        img {
+                            max-width: 100px;
+                        }
+                    }
+
+
+
+                    .description-right {
+
+                        h2 {
+                            font-size: 23px;
+                            text-align: center;
+                        }
+
+                        ul {
+                            margin-top: 5px;
+
+                            li {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .special {
+                    background-color: #384D70;
+                }
+            }
+        }
+    }
+
+}

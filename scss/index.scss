@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101932;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+@import "introduction";
+@import "invasion";
+@import "explanation";
+@import "goal";
+@import "investing";
+@import "roadmap";
+@import "team";
+@import "questions";
+@import "membership";
+@import "copyright";
+
+@import "media";

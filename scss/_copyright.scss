@@ -1,0 +1,17 @@
+.copyright {
+    padding: 20px 0px;
+
+    .container {
+        max-width: 1320px;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

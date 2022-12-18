@@ -1,0 +1,96 @@
+.goal {
+    margin-top: 150px;
+
+    .container {
+        margin: 10px auto;
+        max-width: 1320px;
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 32px;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            opacity: 0.5;
+            font-size: 23px;
+        }
+
+        .earning-blocks {
+            margin-top: 50px;
+            padding: 0 30px;
+
+            .earn-top {
+                display: flex;
+                gap: 30px;
+                padding: 25px 25px;
+                border-radius: 15px;
+                background-color: #071022;
+
+                .earn-top-left {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    border-radius: 10px;
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url(../pictures/image\ 35\ .svg);
+                }
+
+                .earn-top-right {
+
+                    h2 {
+                        color: white;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .earn-bottom {
+                margin-top: 60px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;
+
+                .mutual-block {
+                    border-radius: 8px;
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px 20px;
+
+
+                    .earn-text-right {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        h1 {
+                            text-align: left;
+                            font-size: 24px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            text-align: left;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+
+                .earn-bottom-left {
+                    background-color: #FF9429;
+                }
+
+                .earn-bottom-right {
+                    background-color: #067CCB;
+                }
+            }
+        }
+    }
+}

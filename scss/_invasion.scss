@@ -1,0 +1,90 @@
+.invasion {
+    margin-top: 35px;
+
+    .container {
+        margin: 10px auto;
+        max-width: 1320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+
+        .logo-box-gray {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+
+            img {
+                max-width: 170px;
+                max-height: 40px;
+                opacity: 10%;
+            }
+        }
+
+        .hidden-text {
+
+            p {
+                display: none;
+            }
+        }
+
+        .earth {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            height: 340px;
+            width: 370px;
+
+            .background {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+                background-image: url(../pictures/Group\ 28.svg);
+
+                img {
+                    max-width: 240px;
+                }
+            }
+        }
+
+        .enter {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+
+            button {
+                width: 180px;
+                height: 45px;
+                border: none;
+                border-radius: 10px;
+                background-color: #E11D2E;
+                transition: 280ms;
+
+                &:hover {
+                    background-color: #c01220;
+                }
+
+                a {
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+
+            p {
+                text-align: center;
+                color: white;
+                font-size: 28px;
+                font-weight: bold;
+                line-height: 38px;
+            }
+        }
+    }
+}

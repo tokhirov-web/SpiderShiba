@@ -1,0 +1,832 @@
+@media (max-width: 1300px) {
+    .container {
+        padding: 1px 15px;
+    }
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1140px) {
+    .introduction {
+
+        .container {
+
+            header {
+
+                .text-wrap-right {
+
+                    gap: 17px;
+
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .explanation {
+
+        .container {
+
+            .grid-benefits {
+
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .goal {
+
+        .container {
+
+            .earning-blocks {
+
+                .earn-top {
+                    flex-direction: column;
+
+                    .earn-top-left {
+                        justify-content: center;
+                        gap: 150px;
+                    }
+                }
+
+                .earn-bottom {
+                    grid-template-columns: repeat(1,1fr);
+
+                    .mutual-block {
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            max-width: 200px;
+                        }
+
+                        .earn-text-right {
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+
+        .container {
+
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .introduction {
+
+        .container {
+            padding: 5px 20px;
+
+            header {
+
+                .fake {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0;
+                    flex-direction: column;
+                    gap: 20px;
+                    position: fixed;
+                    left: -100%;
+                    top: 0;
+                    background-color: #131f3b;
+                    width: 200px;
+                    height: 1000px;
+                    z-index: 1;
+                    opacity: 0.9;
+                    transition: 270ms;
+
+                    a {
+                        color: white;
+                    } 
+                }
+
+                .active {
+                    left: 0;
+                }
+
+                .text-wrap-right {
+                    display: none;
+                }
+
+                .burger {
+                    display: block;
+                    cursor: pointer;
+
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+
+            main {
+                grid-template-columns: repeat(1, 1fr);
+
+                .big-spider-right {
+                    display: none;
+                }
+
+                .text-left {
+
+                    .title {
+
+                        h1 {
+                            font-size: 105px;
+                            line-height: 105px;
+                        }
+
+                        .hybrid {
+                            font-size: 28px;
+                        }
+                    }
+
+                    .nft {
+                        font-size: 28px;
+                    }
+
+                    .mobile-pic {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            max-width: 400px;
+                        }
+                    }
+
+                    .interaction {
+
+                        align-items: center;
+
+                        .buttons-up {
+                            flex-direction: column;
+                            gap: 20px;
+
+                            .join {
+                                max-width: 150%;
+                                height: 60px;
+                                font-size: 25px;
+                            }
+
+                            .more {
+                                max-width: 180%;
+                                height: 60px;
+                                font-size: 25px;
+                            }
+                        }
+
+                        .input-box {
+                            max-width: 700px;
+
+                            input {
+                                max-width: 600px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .invasion {
+        .container {
+
+            .hidden-text {
+
+                p {
+                    display: block;
+                    text-align: center;
+                    color: white;
+                    font-size: 28px;
+                    font-weight: bold;
+                    line-height: 38px;
+                }
+            }
+
+            .enter {
+
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .goal {
+
+        .container {
+
+            .earning-blocks {
+
+                .earn-bottom {
+                    grid-template-columns: repeat(1, 1fr);
+
+                    .mutual-block {
+                        padding: 10px 10px;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 150px;
+                        }
+
+                        .earn-text-right {
+
+                            h1 {
+                                text-align: center;
+                            }
+
+                            p {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .roadmap {
+
+        .container {
+
+            .map-block {
+                gap: 60px;
+                align-items: center;
+                flex-direction: column;
+
+                .map-left {
+
+                    .mutual-month {
+                        width: 450px;
+                    }
+
+                    .december {
+                        display: none;
+                    }
+
+                    .question-2 {
+                        display: none;
+                    }
+                }
+
+                .line {
+                    display: none;
+                }
+
+                .map-right {
+
+                    .special {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .investing {
+        display: none;
+    }
+
+    .questions {
+
+        .container {
+            padding: 20px 70px;
+        }
+    }
+}
+
+@media (max-width: 785px) {
+    .introduction {
+
+        .container {
+
+            main {
+
+                .text-left {
+
+                    .title {
+
+                        h1 {
+                            font-size: 80px;
+                            line-height: 80px;
+                        }
+
+                        .hybrid {
+                            font-size: 24px;
+                        }
+                    }
+
+                    .nft {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .invasion {
+
+        .container {
+
+            .logo-box-gray {
+
+                img {
+                    opacity: 40%;
+                }
+            }
+
+            .enter {
+
+                button {
+                    width: 240px;
+                }
+            }
+        }
+    }
+
+    .explanation {
+
+        .container {
+
+            .grid-benefits {
+
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .goal {
+
+        .container {
+
+            .earning-blocks {
+
+                .earn-top {
+
+                    .earn-top-left {
+                        gap: 40px;
+
+                        img {
+                            max-width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+
+        .container {
+
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .questions {
+
+        .container {
+            padding: 20px 30px;
+        }
+    }
+
+    .membership {
+
+        .container {
+
+            .bottom-input-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1px;
+                padding: 15px 14px;
+                margin-top: 50px;
+                border-radius: 10px;
+                background-color: #0000004D;
+
+                p {
+                    color: #FFFFFF66;
+                    font-size: 12px;
+                }
+
+                input {
+                    border: none;
+                    color: white;
+                    font-size: 14px;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 624px) {
+    .introduction {
+
+        .container {
+
+            main {
+
+                .text-left {
+
+                    .interaction {
+
+                        .buttons-up {
+
+                            .join {
+                                width: 110%;
+                                height: 60px;
+                                font-size: 24px;
+                            }
+
+                            .more {
+                                width: 130%;
+                                height: 60px;
+                                font-size: 24px;
+                            }
+                        }
+
+                        .input-box {
+
+                            max-width: 450px;
+
+                            input {
+                                width: 400px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+
+        .container {
+
+            .team-grid {
+
+                .team-blocks {
+
+                    .pic-up {
+
+                        img {
+                            max-width: 350px;
+                        }
+                    }
+
+                    .text-btm {
+
+                        h3 {
+                            font-size: 30px;
+                        }
+
+                        p {
+                            font-size: 22px;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .team-blocks:nth-child(1) {
+                    grid-column: 1/3;
+                }
+
+                .team-blocks:nth-child(2) {
+                    display: none;
+                }
+
+                .team-blocks:nth-child(3) {
+                    display: none;
+                }
+
+                .team-blocks:nth-child(4) {
+                    display: none;
+                }
+
+            }
+
+            .team-buttons {
+
+                .media-btn {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 524px) {
+    .introduction {
+
+        .container {
+
+            main {
+
+                .text-left {
+
+                    .title {
+
+                        h1 {
+                            font-size: 55px;
+                            line-height: 55px;
+                        }
+
+                        .hybrid {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .nft {
+                        font-size: 21px;
+                    }
+
+                    .mobile-pic {
+
+                        img {
+                            max-width: 300px;
+                        }
+                    }
+
+                    .interaction {
+
+                        .buttons-up {
+
+                            .join {
+                                width: 90%;
+                                font-size: 21px;
+                            }
+
+                            .more {
+                                width: 105%;
+                                font-size: 21px;
+                            }
+                        }
+
+                        .input-box {
+                            max-width: 320px;
+
+                            input {
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .roadmap {
+
+        .container {
+
+            .map-block {
+
+                .map-left {
+
+                    .mutual-month {
+                        width: 380px;
+                        padding: 15px 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .questions {
+
+        .container {
+            padding: 20px 8px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .explanation {
+
+        .container {
+            padding: 0 10px;
+        }
+    }
+
+    .goal {
+
+        .container {
+
+            .earning-blocks {
+
+                .earn-top {
+
+                    .earn-top-left {
+                        gap: 0px;
+
+                        img {
+                            max-width: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 418px) {
+    .roadmap {
+
+        .container {
+
+            .map-block {
+
+                .map-left {
+
+                    .mutual-month {
+                        max-width: 340px;
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+
+        .container {
+
+            .team-grid {
+
+                .team-blocks {
+
+                    .pic-up {
+
+                        img {
+                            max-width: 280px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 378px) {
+    .introduction {
+
+        .container {
+
+            header {
+
+                .logo-left {
+
+                    img {
+                        max-width: 200px;
+                    }
+                }
+
+                .burger {
+
+                    img {
+                        max-width: 40px;
+                    }
+                }
+            }
+
+            main {
+
+                .text-left {
+
+                    .title {
+
+                        h1 {
+                            font-size: 45px;
+                            line-height: 45px;
+                        }
+
+                        .hybrid {
+                            font-size: 17px;
+                        }
+                    }
+
+                    .nft {
+                        font-size: 20px;
+                    }
+
+                    .interaction {
+
+                        .buttons-up {
+
+                            .join {
+                                width: 80%;
+                                font-size: 20px;
+                            }
+
+                            .more {
+                                width: 90%;
+                                font-size: 16px;
+                            }
+                        }
+
+                        .input-box {
+                            max-width: 280px;
+
+                            input {
+                                width: 220px;
+                            }
+                        }
+                    }
+
+                    .mobile-pic {
+
+                        img {
+                            max-width: 260px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .roadmap {
+
+        .container {
+
+            .map-block {
+
+                .map-left {
+
+                    .mutual-month {
+                        max-width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 295px) {
+    .introduction {
+
+        .container {
+
+            header {
+
+                .logo-left {
+
+                    img {
+                        max-width: 155px;
+                    }
+                }
+
+                .burger {
+
+                    img {
+                        max-width: 30px;
+                    }
+                }
+            }
+
+            main {
+
+                .text-left {
+
+                    .title {
+
+                        h1 {
+                            font-size: 35px;
+                            line-height: 35px;
+                        }
+
+                        .hybrid {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .nft {
+                        font-size: 17px;
+                    }
+
+                    .mobile-pic {
+
+                        img {
+                            max-width: 230px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

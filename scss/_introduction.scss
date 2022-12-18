@@ -1,0 +1,195 @@
+.introduction {
+    background-image: url(../pictures/bg.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 1px 0;
+
+    .container {
+        margin: 10px auto;
+        max-width: 1320px;
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .active {
+                display: none;
+            }
+
+            .fake {
+                display: none;
+            }
+
+            .logo-left {
+                max-width: 10%;
+
+                img {
+                    max-width: 250px;
+                }
+            }
+
+            .text-wrap-right {
+                max-width: 85%;
+                display: flex;
+                align-items: center;
+                gap: 25px;
+
+                a {
+                    font-size: 18px;
+                    color: white;
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 125px;
+                    height: 35px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #AC1216;
+                    transition: 280ms;
+
+                    &:hover {
+                        background-color: #91070b;
+                    }
+
+                    a {
+                        color: white;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .burger {
+                display: none;
+            }
+        }
+
+
+        main {
+            margin-top: 90px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            .text-left {
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+
+                .title {
+                    h1 {
+                        font-size: 48px;
+                        line-height: 48px;
+                        color: white;
+
+                        .who {
+                            color: #E11D2E;
+                        }
+                    }
+
+                    .hybrid {
+                        font-size: 17px;
+                        color: #71768E;
+                    }
+                }
+
+                .nft {
+                    color: #A0A3B5;
+                    font-size: 19px;
+                }
+
+                .mobile-pic {
+                    display: none;
+                }
+
+                .interaction {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .buttons-up {
+                        align-items: center;
+                        display: flex;
+                        gap: 8px;
+
+                        .join {
+                            width: 170px;
+                            height: 50px;
+                            border: none;
+                            border-radius: 10px;
+                            background-color: #E11D2E;
+                            transition: 280ms;
+
+                            &:hover {
+                                background-color: #b8101e;
+                            }
+
+                            a {
+                                font-size: 16px;
+                                color: white;
+                            }
+                        }
+
+                        .more {
+                            width: 240px;
+                            height: 50px;
+                            border: none;
+                            border-radius: 10px;
+                            background-color: rgba(255, 255, 255, 0.05);
+
+                            a {
+                                font-size: 16px;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .input-box {
+                        max-width: 415px;
+                        display: flex;
+                        flex-direction: column;
+                        border: 1px solid rgba(255, 255, 255, 0.09);
+                        border-radius: 10px;
+                        padding: 8px;
+
+                        span {
+                            color: #FFFFFF33;
+                            font-size: 13px;
+                        }
+
+                        input {
+                            margin-top: 1px;
+                            background-color: transparent;
+                            border: none;
+                            font-size: 16px;
+                            color: #FFFFFF66;
+                        }
+                    }
+                }
+            }
+
+            .big-spider-right {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    max-width: 450px;
+                }
+            }
+        }
+    }
+
+    marquee {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        height: 30px;
+        color: #FFF50099;
+        background-color: #5A4039;
+    }
+}

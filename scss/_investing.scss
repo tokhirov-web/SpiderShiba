@@ -1,0 +1,88 @@
+.investing {
+    margin-top: 150px;
+    background-color: #30298C;
+    padding: 80px 50px;
+
+    .container {
+        margin: 10px auto;
+        max-width: 1320px;
+
+        .invest-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 60px;
+
+            .invest-text-left {
+
+                h1 {
+                    font-size: 35px;
+                    color: white;
+                }
+
+                p {
+                    color: white;
+                    opacity: 0.5;
+                    margin-top: 5px;
+                    font-size: 24px;
+                }
+
+                button {
+                    margin-top: 30px;
+                    width: 265px;
+                    height: 55px;
+                    border: none;
+                    border-radius: 12px;
+                    background-color: #E11D2E;
+                    transition: 280ms;
+
+                    &:hover {
+                        background-color: #c51322;
+                    }
+
+                    a {
+                        font-size: 17px;
+                        color: white;
+                    }
+                }
+            }
+
+            .invest-text-right {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
+                .mutual-right {
+                    display: flex;
+                    gap: 50px;
+
+                    .left-picture {
+                        background-color: #FFFFFF;
+                        opacity: 0.2;
+                        border-radius: 12px;
+                        padding: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            fill: red;
+                        }
+                    }
+
+                    .right-text {
+
+                        h3 {
+                            color: white;
+                        }
+
+                        p {
+                            margin-top: 7px;
+                            color: white;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
